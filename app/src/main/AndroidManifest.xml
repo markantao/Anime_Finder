@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".drama"></activity>
+        <activity android:name=".hunter"></activity>
+        <activity android:name=".naruto" />
+        <activity android:name=".drama" />
         <activity android:name=".comedy" />
         <activity android:name=".adventure" />
         <activity android:name=".MainActivity">
