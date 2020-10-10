@@ -21,5 +21,11 @@ class adventure : AppCompatActivity() {
             val intent = Intent(this, hunter::class.java)
             startActivity(intent)
         }
+
+        val attackad = findViewById<Button>(R.id.attack_button)
+        attackad.setOnClickListener {
+            val intent = Intent(this, attack::class.java)
+            startActivity(intent)
+        }
     }
 }
