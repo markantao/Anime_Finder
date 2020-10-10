@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gintama">
+    tools:context=".sakai">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -18,34 +18,19 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="380dp"
+        android:layout_height="86dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center"
-        android:text="Gintama"
+        android:text="The Disastrous Life of Sakai K."
         android:textColor="@color/White"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:text="Gintama is a comedy anime where the main character is a samurai called Gintoki with no respect. Him and his friends always create trouble wherever they go. The first 58 episodes is where things are goofy and funny. But after that’s when action and adventure comes it is very worth watching."
-        android:textColor="@color/White"
-        android:textSize="24dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

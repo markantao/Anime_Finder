@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".anohana"></activity>
+        <activity android:name=".sakai"></activity>
+        <activity android:name=".anohana" />
         <activity android:name=".tsuki" />
         <activity android:name=".march" />
         <activity android:name=".gintama" />

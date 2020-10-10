@@ -34,4 +34,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Nisekoi is a romance related comedy where the main character Ichijou meets a girl named Kirisaki who are in rival gangs. Ichijou’s dad is the boss of the Yakuza and Kirisaki’s dad is the boss of the BeeHive Gang from America. This anime is not what you expect, you may think it's a drama but it's hilarious! They have to pretend to date to keep peace with the gangs. There are a lot of awkward scenes when they are trying too hard to date. Will they actually fall in love?"
+        android:textColor="@color/White"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

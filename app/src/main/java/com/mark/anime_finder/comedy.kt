@@ -16,5 +16,17 @@ class comedy : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val gintamad = findViewById<Button>(R.id.gintama_button)
+        gintamad.setOnClickListener {
+            val intent = Intent(this, gintama::class.java)
+            startActivity(intent)
+        }
+
+        val sakaiad = findViewById<Button>(R.id.sakai_button)
+        sakaiad.setOnClickListener {
+            val intent = Intent(this, sakai::class.java)
+            startActivity(intent)
+        }
+
     }
 }
