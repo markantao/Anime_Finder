@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="Anohana is a tragic anime following the past of  Menma. They had a crew of friends including Jinta,Naruko,Yukiastu,Tetsudou and Chiriko. As the anime passes, Jinta sees Menma again after a while you will see how the crew all drifted apart when Menma died. Also the guilt they all felt when they died and what they should have done. What will happen next? Will Menma stay there forever or is she just an illusion."
+        android:text="Anohana is a tragic anime following the past of  Menma. They had a crew of friends including Jinta, Naruko,Yukiastu, Tetsudou and Chiriko. As the anime passes, Jinta sees Menma again after a while you will see how the crew all drifted apart when Menma died. Also the guilt they all felt when they died and what they should have done. What will happen next? Will Menma stay there forever or is she just an illusion."
         android:textColor="@color/White"
         android:textSize="24dp"
         android:textStyle="bold"
