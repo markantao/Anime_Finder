@@ -44,7 +44,7 @@
         android:layout_marginTop="145dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Samurai Champloo"
+        android:text="Nikesoi"
         android:textColor="@color/Blue"
         android:textStyle="bold"
         android:textSize="18dp"

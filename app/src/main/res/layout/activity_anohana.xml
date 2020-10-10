@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".samurai">
+    tools:context=".anohana">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -25,13 +25,27 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Nisekoi"
-        android:textSize="40dp"
+        android:gravity="center"
+        android:text="Anohana"
         android:textColor="@color/White"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Anohana is a tragic anime following the past of  Menma. They had a crew of friends including Jinta,Naruko,Yukiastu,Tetsudou and Chiriko. As the anime passes, Jinta sees Menma again after a while you will see how the crew all drifted apart when Menma died. Also the guilt they all felt when they died and what they should have done. What will happen next? Will Menma stay there forever or is she just an illusion."
+        android:textColor="@color/White"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

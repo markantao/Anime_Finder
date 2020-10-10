@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".samurai">
+    tools:context=".tsuki">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -25,13 +25,27 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Nisekoi"
-        android:textSize="40dp"
+        android:gravity="center"
+        android:text="Tsukia Kerei"
         android:textColor="@color/White"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Tsuki Ga Kirei, Tsuki Ga Kirei is a show based on two characters Akane and Kotaro. In this anime their relationship always spirals to lovers. Then haters. They have a complicated relationship. Akane is just a shy girl trying to defeat her nervousness. While Kotaro is similar but a book nerd who is in a literature club. Will this relationship work out?"
+        android:textColor="@color/White"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

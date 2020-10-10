@@ -15,5 +15,17 @@ class drama : AppCompatActivity() {
             val intent = Intent(this, march::class.java)
             startActivity(intent)
         }
+
+        val tsukiad = findViewById<Button>(R.id.tsuki_button)
+        tsukiad.setOnClickListener {
+            val intent = Intent(this, tsuki::class.java)
+            startActivity(intent)
+        }
+
+        val anohanad = findViewById<Button>(R.id.anohana_button)
+        anohanad.setOnClickListener {
+            val intent = Intent(this, anohana::class.java)
+            startActivity(intent)
+        }
     }
 }
